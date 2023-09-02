@@ -1,0 +1,35 @@
+.main{
+    /* border: var(--border); */
+    width: var(--width-container);
+    min-height: var(--min-height);
+    text-align: center;
+    padding: 30px;
+}
+
+.main_add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listFruits{
+    /* border: var(--border); */
+    /* height: 100px; */
+    margin-top: 20px;
+}
+
+.itemFruits{
+    /* border: var(--border); */
+    display: flex;
+    width: 100%;
+    background-color: rgb(204, 202, 202);
+}
+
+.itemFruits > p,
+.itemFruits > h3{
+    width: calc(100%/5);
+}
+
+.itemFruits_titles{
+    background-color: rgb(167, 163, 163);
+}

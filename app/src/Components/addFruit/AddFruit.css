@@ -1,0 +1,29 @@
+.container_add{
+    border: var(--border);
+    width: 300px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.title{
+    margin: 0px;
+ }
+
+.add_form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.add_form input{
+    height: 20px;
+}
+
+.add_btns{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
